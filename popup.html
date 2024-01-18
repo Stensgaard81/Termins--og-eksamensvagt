@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Termins- og eksamensvagt</title>
+    <style>
+        table {
+            width: 500px;
+            table-layout: fixed;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            word-wrap: break-word;
+        }
+        th {
+            position: sticky;
+            top: 0;
+            background-color: #f9f9f9;
+        }
+        .time { width: 20%; }
+        .action { width: 10%; }
+        .url { width: 40%; }
+        .text { width: 30%; }
+    </style>
+</head>
+<body>
+    <h1>Termins- og eksamensvagt</h1>
+    <table id="pagesTable">
+        <tr>
+            <th class="time">Tidspunkt</th>
+            <th class="action">Aktion</th>
+            <th class="url">URL</th>
+            <th class="text">Tekst</th>
+        </tr>
+    </table>
+    <script src="popup.js"></script>
+</body>
+</html>
